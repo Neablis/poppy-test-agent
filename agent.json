@@ -1,0 +1,14 @@
+{
+  "client_id": "https://neablis.github.io/poppy-test-agent/agent.json",
+  "client_name": "Poppy validator (test)",
+  "jwks_uri": "https://neablis.github.io/poppy-test-agent/jwks.json",
+  "redirect_uris": [
+    "https://neablis.github.io/poppy-test-agent/callback"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "extensions": {
+    "operations": {
+      "version": "1"
+    }
+  }
+}
